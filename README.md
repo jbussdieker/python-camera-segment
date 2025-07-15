@@ -57,15 +57,25 @@ make clean     # remove build artifacts
 - Release automation with [release-please](https://github.com/googleapis/release-please)
 - Publish to PyPI using Trusted Publishers
 
+### Manual Release Tagging
+
+If you need to deploy a release that doesn't include a `fix`, `feat`, or `docs` commit (for example, a pure chore or meta change), you can manually trigger a release with:
+
+```bash
+git commit --allow-empty -m "chore: release 0.3.1 (manual)" -m "Release-As: 0.3.1"
+```
+
+Replace `0.3.1` with the desired version number.
+
 ---
 
 ## 📄 Links
 
 - [Homepage](https://github.com/jbussdieker/python-camera-segment)
-- [Documentation](https://github.com/jbussdieker/python-camera-segment/blob/master/README.md)
+- [Documentation](https://github.com/jbussdieker/python-camera-segment/blob/main/README.md)
 - [Repository](https://github.com/jbussdieker/python-camera-segment)
 - [Issues](https://github.com/jbussdieker/python-camera-segment/issues)
-- [Changelog](https://github.com/jbussdieker/python-camera-segment/blob/master/CHANGELOG.md)
+- [Changelog](https://github.com/jbussdieker/python-camera-segment/blob/main/CHANGELOG.md)
 
 ---
 
