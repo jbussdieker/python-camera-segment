@@ -28,6 +28,9 @@ classifiers = [
 license = "MIT"
 license-files = ["LICENSE"]
 
+[project.entry-points."camera_segment.commands"]
+version = "camera_segment.cli:show_version"
+
 [project.scripts]
 camera-segment = "camera_segment.cli:main"
 
