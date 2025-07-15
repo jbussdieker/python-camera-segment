@@ -1,4 +1,4 @@
-name: release-please
+name: workflow
 on:
   push:
 permissions:
@@ -69,8 +69,8 @@ jobs:
     needs: [lint, test, coverage, build-check]
     if: github.ref == 'refs/heads/main'
     outputs:
-      release_created: steps.release-please.outputs.release_created
-      tag_name: steps.release-please.outputs.tag_name
+      release_created: ${{ steps.release-please.outputs.release_created }}
+      tag_name: ${{ steps.release-please.outputs.tag_name }}
     steps:
       - name: release-please
         id: release-please
@@ -80,7 +80,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     needs: release-please
-    if: needs.release-please.outputs.release_created == 'true'
+    if: needs.release-please.outputs.release_created
     environment: pypi
     steps:
       - name: Checkout code
