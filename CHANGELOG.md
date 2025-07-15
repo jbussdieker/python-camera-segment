@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/jbussdieker/python-camera-segment/compare/v0.3.2...v0.3.3) (2025-07-15)
+
+
+### Documentation
+
+* **pyproject:** update URLs to use 'main' branch ([#15](https://github.com/jbussdieker/python-camera-segment/issues/15)) ([effda0d](https://github.com/jbussdieker/python-camera-segment/commit/effda0dff19bad2d6e7e0801af09d24054a55913))
+
 ## [0.3.2](https://github.com/jbussdieker/python-camera-segment/compare/v0.3.1...v0.3.2) (2025-07-15)
 
 
