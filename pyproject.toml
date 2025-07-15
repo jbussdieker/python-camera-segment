@@ -3,7 +3,7 @@ name = "camera-segment"
 dynamic = ["version"]
 description = "A Python tool to capture segments of video from cameras."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [
   { name = "Joshua B. Bussdieker", email = "jbussdieker@gmail.com" }
 ]
@@ -15,7 +15,6 @@ classifiers = [
   "Topic :: Multimedia :: Video :: Display",
   "Development Status :: 3 - Alpha",
   "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
