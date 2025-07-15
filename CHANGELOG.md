@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/jbussdieker/python-camera-segment/compare/v0.2.0...v0.3.0) (2025-07-15)
+
+
+### Features
+
+* **cli:** enhance CLI with command support and version display ([#8](https://github.com/jbussdieker/python-camera-segment/issues/8)) ([208311e](https://github.com/jbussdieker/python-camera-segment/commit/208311e3fc61af5a79efe7b960138a26ccce456f))
+
 ## [0.2.0](https://github.com/jbussdieker/python-camera-segment/compare/v0.1.0...v0.2.0) (2025-07-15)
 
 
