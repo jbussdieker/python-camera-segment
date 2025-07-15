@@ -29,6 +29,9 @@ classifiers = [
 license = "MIT"
 license-files = ["LICENSE"]
 
+[project.scripts]
+camera-segment = "camera_segment.cli:main"
+
 [project.urls]
 Homepage = "https://github.com/jbussdieker/python-camera-segment"
 Documentation = "https://github.com/jbussdieker/python-camera-segment/blob/master/README.md"
