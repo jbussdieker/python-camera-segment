@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/jbussdieker/python-camera-segment/compare/v0.3.0...v0.3.1) (2025-07-15)
+
+
+### Miscellaneous Chores
+
+* release 0.3.1 (manual) ([39af19e](https://github.com/jbussdieker/python-camera-segment/commit/39af19e16dd6af1c379cfd94397f824b66f50653))
+
 ## [0.3.0](https://github.com/jbussdieker/python-camera-segment/compare/v0.2.0...v0.3.0) (2025-07-15)
 
 
